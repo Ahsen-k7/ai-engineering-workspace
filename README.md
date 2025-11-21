@@ -11,7 +11,7 @@
 | 1   | 5 small functions + pytest tests                                          | Done   | Clean utils, 100% coverage                             |
 | 2   | OOP — BankAccount class with validation + tests                           | Done   | Encapsulation, `__str__`, proper exceptions            |
 | 3   | Full type hints (PEP 484) + black + ruff                                  | Done   | Zero lint errors, `black .` → All done!                |
-| 4   | pytest advanced — parametrize, fixtures, monkeypatch mocking             | Done   | • `day4a`: parametrize + fixtures<br>• `day4b`: pure mocking (offline API) |
+| 4   | pytest advanced — parametrize, fixtures, monkeypatch mocking             | Done   |  Fixtures, parametrize, Mocking, Monkey patch
 | 5   | Mini-challenge: CSV → JSON summarizer CLI + tests                         | Done   | Professional `src/` layout, `pyproject.toml`, beautiful output |
 
 ## Highlights (senior-level polish)
