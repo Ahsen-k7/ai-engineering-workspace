@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "day14-evaluation"
+version = "0.1.0"
+description = "Day 14 — PromptTemplate + Evaluation Harness"
+authors = ["Ahsen"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.0"
+langchain-google-genai = "^2.0.1"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

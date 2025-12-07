@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "day1-llm-wrapper"
+version = "0.1.0"
+description = "Week 3 Day 1 — Gemini LLM wrapper + prompt engineering"
+authors = ["Ahsen <your-email>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+langchain = "^0.3.0"
+langchain-community = "^0.3.0"
+langchain-google-genai = "^2.0.0"
+google-generativeai = "^0.8.0"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+black = "^24.0"
+ruff = "^0.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100
